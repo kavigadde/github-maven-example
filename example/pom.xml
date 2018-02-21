@@ -27,7 +27,6 @@
 		<connection>scm:git:git://github.com/kavigadde/github-maven-example.git</connection>
 		<developerConnection>scm:git:git@github.com:kavigadde/github-maven-example.git</developerConnection>
 	</scm>
-
 	<developers>
 		<developer>
 			<email>kavigadde@us.ibm.com</email>
