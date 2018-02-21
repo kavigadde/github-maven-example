@@ -8,6 +8,13 @@
 	<name>GitHub Maven Plugin Example</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
 	<url>https://github.com/kavigadde/github-maven-example</url>
+	<repository>
+		<id>teamcity-server</id>
+                <url>{teamcity server url}/app/dsl-plugins-repository</url>
+                <snapshots>
+                     <enabled>true</enabled>
+                </snapshots>
+        </repository>
 
 	<issueManagement>
 		<url>https://github.com/kavigadde/github-maven-example/issues</url>
